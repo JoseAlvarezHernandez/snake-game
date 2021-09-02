@@ -1,0 +1,29 @@
+.snake {
+    position: relative;
+    background-color: white;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+    &-head {
+        height: 12px;
+        width: 10px;
+        background-color: red;
+    }
+
+    &-food{
+        position: relative;
+        background-color: yellow;
+        height: 10px;
+        width: 10px;
+    }
+}
+
+.play {
+    position: relative
+}
